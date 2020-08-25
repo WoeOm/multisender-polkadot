@@ -1,0 +1,17 @@
+{
+  "name": "multisender-polkadot",
+  "version": "0.0.1",
+  "description": "multisender-polkadot",
+  "repository": "https://github.com/WoeOm/multisender-polkadot",
+  "author": "WoeOm",
+  "scripts": {
+    "run": "ts-node ./src/sender"
+  },
+  "dependencies": {
+    "@polkadot/api": "^1.29.1"
+  },
+  "devDependencies": {
+    "ts-node": "^8.9.1",
+    "typescript": "^3.8.3"
+  }
+}
